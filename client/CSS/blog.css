@@ -1,0 +1,36 @@
+#blog-banner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    position: relative;
+    flex-flow: wrap;
+}
+
+#blog-banner .action {
+    display: flex;
+    flex-direction: column;
+    /* flex-basis: 75%; */
+    justify-content: center;
+    align-content: center;
+}
+#blog-banner .action .action-text{
+    font-weight: bolder;
+    margin-bottom: 0;
+    align-content: flex-start;
+}
+
+#blog-banner .action button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    color: #fff;
+    background-color: #324a88;
+}
+
+#blog-banner img {
+    height: 250px;
+    width: 300px;
+    border-radius: 30px;
+}
